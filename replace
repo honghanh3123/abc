@@ -1,0 +1,4 @@
+const string = "as_Hạnh Đáng Ghét_dfasdf"
+const n = 14, index = 3
+const regex = new RegExp(`.{${n}}(?=.{${string.length - index - n}}$)`, "g")
+console.log(string, `=====${regex}}====>`, string.replace(regex, "Hạnh Đáng Yêu"))
